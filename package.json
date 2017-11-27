@@ -1,0 +1,25 @@
+{
+  "name": "uniqey",
+  "version": "1.0.0",
+  "description": "An service that allows users to generate random UIDs based on their files.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanDiac/Uniqey.git"
+  },
+  "keywords": [
+    "unique",
+    "key",
+    "dropbox",
+    "uniqey"
+  ],
+  "author": "Stefan Diaconu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StefanDiac/Uniqey/issues"
+  },
+  "homepage": "https://github.com/StefanDiac/Uniqey#readme"
+}
