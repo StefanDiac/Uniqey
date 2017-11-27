@@ -1,0 +1,62 @@
+body{
+    background-color: darkgray;
+}
+
+.bannerContainer {
+    background: #cc968c; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#9F6164,#cc968c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9F6164,#cc968c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9F6164,#cc968c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9F6164,#cc968c); /* Standard syntax */
+    height: 150px;
+    width: auto;
+}
+
+.bannerImage {
+    padding-top: 15px;
+    padding-right: 15px;
+    
+}
+
+.bannerImage > img {
+    max-height: 120px;
+    max-width: 120px;
+    vertical-align: middle;
+    border-radius: 30px;
+    background: #e6e9ef;
+    float: right;
+}
+
+.bannerContainer > img, .bannerTitle {
+    display: inline-block
+}
+
+.bannerTitle {
+    font-size: 48px;
+    color: ghostwhite;
+    text-shadow: -2px -2px 1px black;
+    position: absolute;
+    top: 55px;
+    padding-left: 25px;
+    clear:right;
+}
+
+.viewChangerContainer {
+    padding-top: 10px;
+    margin: auto;
+    width: 50%;   
+}
+
+.viewChangerButtons > button {
+    width: 50%;
+}
+
+.viewChangerButtons > .viewIDButton {
+    float: right;
+}
+
+.stepsOL {
+    color: ghostwhite;
+    text-shadow: 1px -1px 1px black;
+    font-size: 20px;
+}
