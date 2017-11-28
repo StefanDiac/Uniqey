@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dropbox UID Generator</title>
+        <link rel="stylesheet" href="/assets/styles.css" type="text/css">
+    </head>
+    <body>
+        <div class="bannerContainer">
+            <div class="bannerTitle">Uniqey</div>
+            <div class="bannerImage"><img src="/assets/Resources/dropbox.png"></div>
+        </div>
+        <div class="viewChangerContainer">
+            <div class="viewChangerButtons">
+            <button type="button">Generate IDs</button>
+            <button type="button" class="viewIDButton">View My IDs</button>
+            </div>
+        </div>
+        <div class="stepsContainer">
+            <p>Here are your UIDs, <%= name %>!</p>
+            <ul class="UIDTable">
+                <% for(var i=0; i<uidCategories.length; i++){ %>
+                    <li class="UIDCategory"><%= uidCategories[i].name%><br><ul>
+
+                    <% for(var j=0; j<uidCategories[i].ids.length; j++){ %>
+                        <li class="UIDRow"><%= uidCategories[i].ids[j].id%></li>
+                    <%}%>
+                    </ul></li>
+                <%}%>
+            </ul>
+        </div>
+    </body>
+</html>

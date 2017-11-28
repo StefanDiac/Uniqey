@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dropbox UID Generator</title>
+        <link rel="stylesheet" href="/assets/styles.css" type="text/css">
+    </head>
+    <body>
+        <div class="bannerContainer">
+            <div class="bannerTitle">Uniqey</div>
+            <div class="bannerImage"><img src="/assets/Resources/dropbox.png"></div>
+        </div>
+        <div class="viewChangerContainer">
+            <div class="viewChangerButtons">
+            <button type="button">Generate IDs</button>
+            <button type="button" class="viewIDButton">View My IDs</button>
+            </div>
+        </div>
+        <div class="stepsContainer">
+            <p>Thanks for logging in, <%= name %>!</p>
+            <ul class="stepsOL">
+                <li>
+                    Select the document - <br>
+                    <select>
+                        <option value="Taxes">Tax Form</option>
+                        <option value="Registry">Registry Form</option>
+                        <option value="ID">ID Form</option>
+                    </select>
+                    <hr>
+                </li>
+                <li>
+                    <button type="submit">Generate</button><button type="reset">Reset</button>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
